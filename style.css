@@ -1,0 +1,119 @@
+body {
+    text-transform: capitalize;
+}
+
+.blue-nav {
+    color: rgb(102, 102, 247);
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 8px 8px;
+}
+
+.nav-link i {
+    font-size: 30px;
+    display: none;
+}
+
+#hero,
+.home-btn,
+.search-btn {
+    background-color: rgb(102, 102, 247);
+    border: 1px solid white;
+    color: white;
+}
+
+.log-btn,
+.sign-btn:hover {
+    color: rgb(102, 102, 247);
+    background-color: white;
+}
+
+.home-btn:hover,
+.search-btn:hover {
+    background: transparent;
+    border: 1px solid rgb(102, 102, 247);
+    color: rgb(102, 102, 247);
+}
+
+.log-btn:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.first {
+    font-size: 1rem;
+    padding: 10px 40px;
+}
+
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(102, 102, 247);
+}
+
+.whtie-icon {
+    color: white;
+}
+
+#services {
+    background-color: rgb(102, 102, 247);
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+.services-flex-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-title {
+    margin-bottom: 30px;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media(max-width: 600px) {
+    .nav-link i {
+        display: inline-block;
+    }
+
+    .hide-onsm {
+        display: none;
+    }
+}
