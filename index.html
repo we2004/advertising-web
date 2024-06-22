@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ad company</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!--boxicons link-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!--remixicons link-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav id="navbar" class="my-2">
+    <div class="">
+      <ul class="nav nav-pills ">
+
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#"><i class='bx bx-menu'></i></a>
+        </li>
+
+        <li class="nav-item hide-onsm">
+          <a class="nav-link " aria-current="page" href="#"><button class="btn btn-dark home-btn">Home</button></a>
+        </li>
+
+        <li class="nav-item hide-onsm">
+          <a class="nav-link blue-nav" href="#">About</a>
+        </li>
+
+        <li class="nav-item hide-onsm">
+          <a class="nav-link blue-nav" href="#">Orders</a>
+        </li>
+
+        <li class="nav-item dropdown hide-onsm">
+          <a class="nav-link dropdown-toggle blue-nav" data-bs-toggle="dropdown" href="#" role="button"
+            aria-expanded="false">More</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div style="margin-right: 8px;">
+      <form class="d-flex " role="search">
+        <input class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-dark search-btn" type="submit">Search</button>
+      </form>
+    </div>
+
+  </nav>
+
+
+  <main>
+    <!-- hero -->
+    <section id="hero" class="px-4 py-5 text-center">
+      <div class="px-4 py-5 text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" height="100" fill="currentColor" class="bi bi-trophy mb-2"
+          viewBox="0 0 16 16">
+          <path
+            d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935M3.504 1q.01.775.056 1.469c.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.5.5 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667q.045-.694.056-1.469z" />
+        </svg>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-2 fw-bold mt-2">"Crafting visions into reality, one idea at a time."</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-3">
+            <button type="button" class="btn btn-light btn-lg gap-3 first log-btn">Log In</button>
+            <button type="button" class="btn btn-outline-light btn-lg first sign-btn">Sign In</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+    <section id="features">
+      <div class="container px-4 py-5" id="hanging-icons">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class='bx bx-brain whtie-icon'></i>
+            </div>
+            <div>
+              <h3 class="blue-nav">Creative Design</h3>
+              <p>Develop eye-catching ads that grab attention</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class='bx bx-target-lock whtie-icon'></i>
+            </div>
+            <div>
+              <h3 class="blue-nav">Targeted Campaigns</h3>
+              <p>Reach the right audience with precise targeting</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class='bx bx-analyse whtie-icon'></i>
+            </div>
+            <div>
+              <h3 class="blue-nav">Performance Tracking</h3>
+              <p>Measure and analyze ad success for better results</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="services">
+      <div class="container services-flex-div">
+        <div class="row">
+          <h1 class="services-title col-lg-12 whtie-icon">our work</h1>
+        </div>
+        <div class="row cards">
+          <div class="card col-lg-4" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title blue-nav">ice company</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">instagram ad</h6>
+              <p class="card-text">Experience the ultimate refreshment with our premium, crystal-clear ice. Perfect for
+                parties, bars, and everyday use, our ice melts slowly to keep your drinks colder longer...</p>
+              <a href="#" class="card-link">learn more <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAL9JREFUSEvt080JwkAQhuE3PQi5e7EHBW1HvAp2IrkLKSQQrCEQCxAFazADEVYh7nzBBQ/JeTLP/G1G4i9LnJ8JiE74r0Z0AE7ANVp2EODtYAccgRZYK4gXyIFz18EcuABL4O7pxAtYrhBp+k6iiAK8kApYAC5EBQyZAXWArIDH0Lh+AdjSB0elAp/Vf01uXSmALVmavwKMuiAF2HZnWvSXswFunjegABa7B0rlFauAt+i3OGXJEzBqAtGfku/gCS9GIhmCfOLGAAAAAElFTkSuQmCC" /></a>
+            </div>
+          </div>
+          <div class="card col-lg-4" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title blue-nav">cafe</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">snapchat ad</h6>
+              <p class="card-text">Discover your new favorite spot at our cozy cafe! Enjoy freshly brewed coffee,
+                delicious pastries, and a warm, inviting atmosphere. Perfect for catching up with friends or finding a
+                quiet moment for yourself...</p>
+              <a href="#" class="card-link">learn more <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAL9JREFUSEvt080JwkAQhuE3PQi5e7EHBW1HvAp2IrkLKSQQrCEQCxAFazADEVYh7nzBBQ/JeTLP/G1G4i9LnJ8JiE74r0Z0AE7ANVp2EODtYAccgRZYK4gXyIFz18EcuABL4O7pxAtYrhBp+k6iiAK8kApYAC5EBQyZAXWArIDH0Lh+AdjSB0elAp/Vf01uXSmALVmavwKMuiAF2HZnWvSXswFunjegABa7B0rlFauAt+i3OGXJEzBqAtGfku/gCS9GIhmCfOLGAAAAAElFTkSuQmCC" /></a>
+            </div>
+          </div>
+          <div class="card col-lg-4" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title blue-nav">toothpaste</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">google ad</h6>
+              <p class="card-text">Get a brighter smile with our toothpaste! Enjoy a fresh, clean feeling with every
+                brush, as our advanced formula fights cavities, removes stains, and strengthens enamel...</p>
+              <a href="#" class="card-link">learn more <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAL9JREFUSEvt080JwkAQhuE3PQi5e7EHBW1HvAp2IrkLKSQQrCEQCxAFazADEVYh7nzBBQ/JeTLP/G1G4i9LnJ8JiE74r0Z0AE7ANVp2EODtYAccgRZYK4gXyIFz18EcuABL4O7pxAtYrhBp+k6iiAK8kApYAC5EBQyZAXWArIDH0Lh+AdjSB0elAp/Vf01uXSmALVmavwKMuiAF2HZnWvSXswFunjegABa7B0rlFauAt+i3OGXJEzBqAtGfku/gCS9GIhmCfOLGAAAAAElFTkSuQmCC" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+  </main>
+
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4">
+        <p class="col-md-4 mb-0 text-body-secondary">© ad company</p>
+
+        <a href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+      </footer>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
